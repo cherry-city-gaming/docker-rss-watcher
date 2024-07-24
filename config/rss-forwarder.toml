@@ -1,0 +1,76 @@
+########################
+# Goonhammer
+########################
+
+[feeds.goonhammer-blog]
+url = "https://www.goonhammer.com/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+
+########################
+# Warhammer Community
+########################
+
+[feeds.warhammer-community-40k]
+url = "https://www.warhammer-community.com/en-us/warhammer-40000/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+[feeds.warhammer-community-kill-team]
+url = "https://www.warhammer-community.com/en-us/kill-team/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+[feeds.warhammer-community-necromunda]
+url = "https://www.warhammer-community.com/en-us/necromunda/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+[feeds.warhammer-community-aos]
+url = "https://www.warhammer-community.com/en-us/warhammer-age-of-sigmar/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+[feeds.warhammer-community-warcry]
+url = "https://www.warhammer-community.com/en-us/warcry/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+
+########################
+# Beasts of War
+########################
+
+[feeds.beasts-of-war-40k]
+url = "https://www.beastsofwar.com/warhammer-40k/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+[feeds.beasts-of-war-kill-team]
+url = "https://www.beastsofwar.com/game/warhammer-40000-kill-team/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"
+
+[feeds.beasts-of-war-necromunda]
+url = "https://www.beastsofwar.com/game/necromunda-underhive/feed/"
+interval = "60m"
+retry.limit = 5
+sink.type = "discord"
+sink.url = "https://discord.com/api/webhooks/1265529845165719583/r8eBc8-e2iyONYmtTlad2OEec9wKIKNhdsLrKig4wAtrUQuXG-XmPmT_waQsGhe75tka"

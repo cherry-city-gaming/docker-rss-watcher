@@ -3,3 +3,5 @@ services:
     image: ghcr.io/morphy2k/rss-forwarder:latest
     container_name: discord-rss-forwarder
     restart: unless-stopped
+    volumes:
+      - ./config/rss-forwarder.toml:/data/config.toml
